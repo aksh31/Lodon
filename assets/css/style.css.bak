@@ -1,0 +1,192 @@
+/* ==============================Header Section========================= */
+.header
+{
+	padding:23px 0 0;
+}
+.logo img
+{
+	
+}
+.navbar li
+{
+	display:inline-block;
+	margin-left:15px;
+	position:relative;
+}
+.navbar li a
+{
+	display:inline-block;
+	font-size:18px;
+	font-weight:bold;
+	color:#006a4d;
+	padding:10px;
+}
+/* .navbar li a:active, .navbar li a:hover, .navbar li a:focus, .navbar li a.active */
+/* { */
+	/* color:#69be28; */
+/* } */
+.navbar li a::after
+{
+	content:" ";
+	background-color:#69be28;
+	height:3px;
+	width:0;
+	bottom:0;
+	left:0;
+	position:absolute;
+	transition: all 0.5s ease-in-out;
+}
+.navbar li a:hover::after
+{
+	width:100%;
+}
+.reg-btn
+{
+	background-color:#69be28;
+	color:#fff;
+	font-size:18px;
+	font-weight:bold;
+	outline:none;
+	border:2px solid #69be28;
+	cursor:pointer;
+	padding:19px 17px 17px 16px;
+}
+.reg-btn:hover
+{
+	color:#69be28;
+	background-color:#fff;
+}
+/* =======================================================Heroimg Section Starts======================================================== */
+.heroimg
+{
+	background-image:linear-gradient( rgb(127, 180, 166, 0.5), rgb(127, 180, 166, 0.5)),url("../images/heroimg.jpg");
+	background-size: cover;
+	background-repeat:no-repeat;
+	width:100%;
+	height:400px;
+	position:relative;
+}
+.caption
+{
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	position:absolute;
+}
+.caption h2
+{
+	font-size:32px;
+}
+.caption h3
+{
+	font-size:58px;
+	padding:27px 0;
+	border-bottom:1px solid #fff;
+}
+.caption p
+{
+	font-size:22px;
+	margin-top:23px;
+}
+.caption h2, .caption h3, .caption p
+{
+	color:#fff;
+	font-weight:bold;
+}
+/* =======================================================About Section Starts======================================================== */
+.about
+{
+	padding:125px 0 120px;
+}
+.info h2, .info h4
+{
+	color:#006a4d;
+}
+.info h2, .speak-info h2
+{
+	font-size:36px;
+}.info h4
+{
+	font-size:20px;
+}
+.info p, .speak-info p
+{
+	font-size:16px;
+}
+.info img
+{
+	width:100%;
+	height:100%;
+}
+/* =======================================================Speakers Section Starts======================================================== */
+.speakers
+{
+	padding:105px 0 100px;
+	background-color:#006a4d;
+}
+.speak-info h2, .speak-info p, .thumb-info h4, .thumb-info p, .foot-icons h4
+{
+	font-weight:bold;
+	color:#fff;
+}
+.thumb-img img
+{
+	width:100%;
+	height:100%;
+	border:4px solid #fff;
+	border-radius:50%;
+}
+.thumb-info h4
+{
+	font-size:18px;
+}
+.thumb-info p
+{
+	font-size:14px;
+}
+.speak-btn
+{
+	background-color:#006a4d;
+	font-size:18px;
+	font-weight:bold;
+	color:#fff;
+	outline:none;
+	border:3px solid #fff;
+	cursor:pointer;
+	padding:15px 22px;	
+}
+.speak-btn:hover
+{
+	background-color:#fff;
+	color:#006a4d;
+	/* border:3px solid #006a4d; */
+}
+
+.footer
+{
+	background-color:#3c3c3c;
+	padding:83px 0 76px;
+}
+.foot-yr a
+{
+	color:#fff;
+	font-weight:bold;
+	margin-top:15px;
+}
+.foot-icons h4
+{
+	font-size:18px;
+	margin-bottom:5px;
+}
+.icons li
+{
+	display:inline-block;
+}
+.icons li a
+{
+	display:inline-block;
+	color:#fff;
+	padding:7px;
+	border:2px solid #fff;
+	border-radius:50%;
+}
